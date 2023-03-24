@@ -11,7 +11,7 @@ console.log(a);
 console.log(b);
 // Expected output: 20
 
-[a, b, ...rest ] = [ 20, 30, 40];
+[a, ...b ] = [ 10, 20, 30, 40];
 
-console.log(rest);
+console.log(...b);
 // Expected output: A
