@@ -9,9 +9,9 @@ console.log(a);
 // Expected output: 10
 
 console.log(b);
-// Expected output: 20
+// Expected output: 50
 
 [a, ...b ] = [ 10, 20, 30, 40];
 
 console.log(...b);
-// Expected output: A
+// Expected output: ...
