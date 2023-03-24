@@ -14,3 +14,11 @@ const zuchiniArray = [
     {name: 'zuchini9', weight: 44 , length: 8 },
     {name: 'zuchini10', weight: 27 , length: 8 }
 ]
+
+let add = 0;
+for (let i = 0; i< zuchiniArray.length; i++)
+{
+  add += zuchiniArray[i].weight
+}
+
+console.log( "Sum of the array values is: ", add);
